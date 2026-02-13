@@ -1,4 +1,4 @@
-module doughwallet_recovery
+module github.com/cyclone-github/doughwallet_recovery
 
 go 1.25
 

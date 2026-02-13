@@ -34,7 +34,7 @@ This means all hardened child keys are derived with different indices, producing
 */
 
 func versionFunc() {
-	fmt.Fprintln(os.Stderr, "Dough Wallet Recovery v0.1.3; 2026-02-11\nhttps://github.com/cyclone-github/")
+	fmt.Fprintln(os.Stderr, "Dough Wallet Recovery v0.1.3; 2026-02-11\nhttps://github.com/cyclone-github/doughwallet_recovery")
 }
 
 const bip32Prime uint32 = 0x9e000000
