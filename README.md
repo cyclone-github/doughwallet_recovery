@@ -8,6 +8,16 @@
 
 ### Simple CLI tool to recover Dough Wallets
 
+The defunct Dough Wallet iPhone app used non-standard settings which made it impossible to recover or use your Dogecoins without the Dough Wallet app, but since the iPhone app and author's website are long gone, this left many users with no hope of recovering their Dogecoins.
+
+`Enter Dough Wallet Recovery`. The non-standard Dough Wallet settings have been methodically researched, reversed, and reimplemented into this tool which allows users to regain access to their lost Dough Wallet Dogecoins. And for the first time ever, the custom Dough Wallet Dogecoin settings have been publically released (see info below and source code).
+
+Enjoy, 
+
+~ Cyclone 
+
+---
+
 Usage:
 ```
 ./doughwallet_recovery
