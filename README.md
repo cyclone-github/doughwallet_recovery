@@ -59,16 +59,6 @@ echo "dough wallet word seed phrase.." | ./doughwallet_recovery
 
 ---
 
-### Dough Wallet Info:
-- Derivation Path = `m/0'/0,1/0`
-  - Source: https://github.com/iancoleman/bip39/commit/4062a567f56ed8a6ec8246d034e0aea94a5e554a
-- Hardened bit = `0x9e000000`
-  - Source: https://github.com/iancoleman/bip39/commit/d98d01a9d00613be9d2042444ac8db629257e73e
-- Official Dough Wallet source code
-  - https://github.com/peritus/doughwallet
-- Official Dough Wallet Web Recovery Toolkit v2
-  - https://github.com/peritus/doughwallet-recovery2
-
 ### Install latest release:
 ```
 go install github.com/cyclone-github/doughwallet_recovery@latest
@@ -88,3 +78,15 @@ go install github.com/cyclone-github/doughwallet_recovery@main
   - `go install -ldflags="-s -w" .`                            # compile binary and install to $GOPATH
 - Compile from source code how-to:
   - https://github.com/cyclone-github/scripts/blob/main/intro_to_go.txt
+
+---
+
+### Dough Wallet Info:
+- Derivation Path = `m/0'/0,1/0`
+  - Source: https://github.com/iancoleman/bip39/commit/4062a567f56ed8a6ec8246d034e0aea94a5e554a
+- Hardened bit = `0x9e000000`
+  - Source: https://github.com/iancoleman/bip39/commit/d98d01a9d00613be9d2042444ac8db629257e73e
+- Official Dough Wallet source code
+  - https://github.com/peritus/doughwallet
+- Official Dough Wallet Web Recovery Toolkit v2
+  - https://github.com/peritus/doughwallet-recovery2
